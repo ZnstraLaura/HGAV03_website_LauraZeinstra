@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+
+
+
+}
+
+.banner {
+    width: 100%;
+    height: 100vh;
+    background: black;
+    overflow: hidden;
+    background:linear-gradient(rgba(1,28,64, 0.9), rgba(4,75,214, 0.3)), url("../images/ateezlaptopwalpp.png");
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    vertical-align: middle;
+    color: white;
+    font-size: 40px;
+    font-family: 'Climate Crisis', cursive;
+    padding-top: 100px;
+    
+
+}
+
+.fcc-btn {
+    background-color:#5695C8;
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+
+body {
+    background: rgb(2, 31, 89);
+    background: linear-gradient(90deg, rgba(2, 31, 89, 1) 10%, rgba(4, 75, 214, 1) 40%, rgba(4, 75, 214, 1) 60%, rgba(1, 28, 64, 1) 90%);
+
+
+}
+
+
+
+.map {
+    width: 600px;
+    height: 400px;
+    margin: 50px;
+}
+
+#esrimap{
+    margin: 50px;
+}
