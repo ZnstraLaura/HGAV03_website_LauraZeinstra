@@ -70,6 +70,7 @@
 		<h1> ATEEZ </h1>
 		<h2>THE FELLOWSHIP: BREAK THE WALL</h2>
 		<h2>2023</h2>
+		<p style="font: size 20px;">On February 10th 2023 I was able to attend the ATEEZ concert in the Ziggodome in Amsterdam. I had a wonderful experience and through this webpage I want to share a little more about ATEEZ and K-pop culture in general.</p>
 		<div id="button">
 			<a target="_blank" class="fcc-btn" href="https://youtu.be/O7Tc4sW2gho">Watch the tour trailer</a> 
 			
@@ -80,19 +81,16 @@
 	<div class="map" id="map">
 		<script>
 
-			const map = L.map('map').setView([52.3133735, 4.9370939], 17);
+			const map = L.map('map').setView([35.9078, 127.7669], 6);
 
 			const tiles = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 				maxZoom: 19,
 				attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 			}).addTo(map);
 
-			L.marker([52.3133735, 4.9370939]).addTo(map)
-				.bindPopup('The Ziggo Dome in Amsterdam.')
-				.openPopup();
 
 				let KoreanGrensBestand = L.geoJSON().addTo(map);
-				fetch('./data/World_Countries__Generalized.json')
+				fetch('./data/southkorea.geojson')
 				.then(response => response.json())
 				.then(data => {
 					console.log(data)
