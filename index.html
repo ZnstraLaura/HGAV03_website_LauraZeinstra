@@ -24,6 +24,9 @@
 	<script src="https://cdn.jsdelivr.net/npm/ol@v7.3.0/dist/ol.js"></script>
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.3.0/ol.css">
 
+	<script src='https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js'></script>
+    <link href='https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css' rel='stylesheet' />
+
 	<link rel="stylesheet" href="https://js.arcgis.com/4.26/esri/themes/light/main.css">	
 
 </head>
@@ -37,7 +40,7 @@
 		<h2>2023</h2>
 		<div class="paragraph"><p>On February 10th 2023 I was able to attend the ATEEZ concert in the Ziggodome in Amsterdam. I had a wonderful experience and through this webpage I want to share a little more about ATEEZ and K-pop culture in general.</p></div>
 		<div id="button">
-			<a target="_blank" class="fcc-btn" href="https://youtu.be/O7Tc4sW2gho">Watch the tour trailer</a> 
+			<a target="_blank" class="fcc-btn" href="https://youtu.be/RqJ1rH9M5G0">Watch their debut!</a> 
 			
 		</div>
 	</div>
@@ -47,17 +50,46 @@
 	
 	</div>
 
+	<div class="text" id="zuidkoreatext">
+		ATEEZ is a boy band from South Korea. The group consists of eight members: Hongjoong, Seongwha, Yunho, Yeonsang, San, Mingi, Wooyoung and Jongho. They debuted on October 24, 2018. 
+K-pop is a music genre and stands for Korean Popular music. The genre is quite popular, even in the Western World, due to the success of other k-pop groups such as BTS and Blackpink. 
+
+	</div>
+
+	<div class="map" id="googletrends">
+		<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3316_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"kpop","geo":"","time":"2004-01-01 2023-04-05"}],"category":0,"property":""}, {"exploreQuery":"date=all&q=kpop&hl=nl","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
+	</div>
+
+	<div class="text" id="googletrendstext">
+		In the google trends we can see the interest in K-pop peaked in June 2020 and July 2022. In June 2020 multiple big K-pop groups released new songs and albums, such as TWICE, Jungkook from BTS, Stray Kids, SEVENTEEN, and most importantly, Blackpink with their song ‘How you like that’, which broke the record of most viewed YouTube music video in 24 hours by a K-pop group. 
+		In July 2022 interest peaked when artists such as J-Hope from BTS, SEVENTEEN, Aespa, HyunA, Xdinary Heroes, ENHYPEN and ATEEZ had comebacks.
+		A new group, called NewJeans also debuted with unheard of success. As of now, the group has over 20 million monthly listeners on Spotify, almost as much as Blackpink.  
+	</div>
+
 	<div class="map" id="openlayersmap1">
 		
 	</div>
 
-	<div class="map" id="esrimap">
+	
 
+	<div class='map' id="maplibre">
+	</div>
+
+	<div class="text" id="maplibretext">
+		ATEEZ as a group debuted under KQ Entertainment.In the map you can see where the agency is located.   Other notable artists under this label are Block B, who sadly have been on hiatus since 2018 as the members had to begin their military service, ZICO, and their new boy group Xikers, who debuted on March 30th, 2023, with their debut song Tricky House. 
+	</div>
+
+	<div id="youtubevideo">
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/HefrSFeMyPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+	</div>
+	
+	<div class="map" id="esrimap">
 	</div>
 
 	<div class="flourish-embed" data-src="visualisation/13174833">
 		<script src="https://public.flourish.studio/resources/embed.js"></script>
 	</div>
+
 
 	<script src="https://js.arcgis.com/4.26/"></script>
 	<script src="./javascr/ateez.js"></script>

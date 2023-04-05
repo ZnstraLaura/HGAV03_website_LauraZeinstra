@@ -47,6 +47,13 @@
     font-size: 20px;
   }
 
+  .text{
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+  }
 
 body {
     background: rgb(2, 31, 89);
