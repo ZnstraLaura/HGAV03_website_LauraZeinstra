@@ -52,8 +52,45 @@
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
+    
 
   }
+
+.map1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#zuidkoreatext{
+    margin: 150px;
+    text-align: center;
+}
+
+
+#googletrendstext{
+    margin: 100px;
+    text-align: center;
+}
+
+
+#maplibretext{
+    margin: 125px;
+    text-align: center;
+}
+
+#openlayertext{
+    margin: 125px;
+
+}
+
+.video{
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#lyrics{
+    margin: 50px;
+}
 
 body {
     background: rgb(2, 31, 89);
@@ -68,6 +105,13 @@ body {
     width: 600px;
     height: 400px;
     margin: 50px;
+}
+
+#youtubevideo{
+    width: 700px;
+    height: 500px;
+    margin: 50px;
+    float: right;
 }
 
 #esrimap{
