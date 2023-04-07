@@ -6,12 +6,19 @@
 
 }
 
+body {
+    background: rgb(2, 31, 89);
+    background: linear-gradient(90deg, rgba(2, 31, 89, 1) 10%, rgba(4, 75, 214, 1) 40%, rgba(4, 75, 214, 1) 60%, rgba(1, 28, 64, 1) 90%);
+
+
+}
+
 .banner {
     width: 100%;
     height: 100vh;
     background: black;
     overflow: hidden;
-    background:linear-gradient(rgba(1,28,64, 0.9), rgba(4,75,214, 0.3)), url("../images/ateezlaptopwalpp.png");
+    background: linear-gradient(rgba(1, 28, 64, 0.9), rgba(4, 75, 214, 0.3)), url("../images/ateezlaptopwalpp.png");
     background-size: cover;
     background-position: center;
     text-align: center;
@@ -25,80 +32,72 @@
 
 }
 
-.paragraph{
-    font-size: 18px; 
+.paragraph {
+    font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
     padding-top: 25px;
 }
 
 
 
-#button{
+#button {
     padding-top: 100px;
 
 
 }
 
 .fcc-btn {
-    background-color:#5695C8;
+    background-color: #5695C8;
     color: white;
     padding: 15px 25px;
     text-decoration: none;
     font-size: 20px;
-  }
+}
 
-  .text{
+.text {
     color: white;
     text-align: center;
     padding-top: 25px;
     padding-bottom: 25px;
-    
 
-  }
+
+}
 
 .map1 {
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-#zuidkoreatext{
+#zuidkoreatext {
     margin: 150px;
     text-align: center;
 }
 
 
-#googletrendstext{
+#googletrendstext {
     margin: 100px;
     text-align: center;
 }
 
 
-#maplibretext{
+#maplibretext {
     margin: 125px;
     text-align: center;
 }
 
-#openlayertext{
+#openlayertext {
     margin: 125px;
 
 }
 
-.video{
+.video {
     display: grid;
     grid-template-columns: 50% 50%;
 }
 
-#lyrics{
+#lyrics {
     margin: 50px;
 }
-
-body {
-    background: rgb(2, 31, 89);
-    background: linear-gradient(90deg, rgba(2, 31, 89, 1) 10%, rgba(4, 75, 214, 1) 40%, rgba(4, 75, 214, 1) 60%, rgba(1, 28, 64, 1) 90%);
-
-
-}
-
 
 
 .map {
@@ -107,20 +106,19 @@ body {
     margin: 50px;
 }
 
-#youtubevideo{
+#youtubevideo {
     width: 700px;
     height: 500px;
     margin: 50px;
     float: right;
 }
 
-#esrimap{
+#esrimap {
     margin: 50px;
 }
 
-.flourish-embed{
+.flourish-embed {
     width: 600px;
     height: 400px;
     margin: 50px;
 }
-

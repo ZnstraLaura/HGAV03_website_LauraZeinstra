@@ -7,13 +7,13 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<script src="https://cdn.jsdelivr.net/npm/terraformer"></script>
-    <script src="https://unpkg.com/@terraformer/wkt"></script>
+	<script src="https://unpkg.com/@terraformer/wkt"></script>
 
 	<title>Ateez website</title>
 	<link rel="stylesheet" href="css/ateez.css">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	
+
 
 	<link href="https://fonts.googleapis.com/css2?family=Climate+Crisis&display=swap" rel="stylesheet">
 	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
@@ -26,9 +26,9 @@
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/ol@v7.3.0/ol.css">
 
 	<script src='https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.js'></script>
-    <link href='https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css' rel='stylesheet' />
+	<link href='https://unpkg.com/maplibre-gl@2.4.0/dist/maplibre-gl.css' rel='stylesheet' />
 
-	<link rel="stylesheet" href="https://js.arcgis.com/4.26/esri/themes/light/main.css">	
+	<link rel="stylesheet" href="https://js.arcgis.com/4.26/esri/themes/light/main.css">
 
 </head>
 
@@ -39,183 +39,206 @@
 		<h1> ATEEZ </h1>
 		<h2>THE FELLOWSHIP: BREAK THE WALL</h2>
 		<h2>2023</h2>
-		<div class="paragraph"><p>On February 10th 2023 I was able to attend the ATEEZ concert in the Ziggodome in Amsterdam. I had a wonderful experience and through this webpage I want to share a little more about ATEEZ and K-pop culture in general.</p></div>
-		<div id="button">
-			<a target="_blank" class="fcc-btn" href="https://youtu.be/RqJ1rH9M5G0">Watch their debut!</a> 
-			
+		<div class="paragraph">
+			<p>On February 10th 2023 I was able to attend the ATEEZ concert in the Ziggodome in Amsterdam. I had a
+				wonderful experience and through this webpage I want to share a little more about ATEEZ and K-pop
+				culture in general.</p>
 		</div>
-	</div>
+		<div id="button">
+			<a target="_blank" class="fcc-btn" href="https://youtu.be/RqJ1rH9M5G0">Watch their debut!</a>
 
-<div class="map1">
-	<div class="map" id="map">
-	
-	</div>
-
-	<div class="text" id="zuidkoreatext">
-		ATEEZ is a boy band from South Korea. The group consists of eight members: Hongjoong, Seongwha, Yunho, Yeonsang, San, Mingi, Wooyoung and Jongho. They debuted on October 24, 2018. 
-K-pop is a music genre and stands for Korean Popular music. The genre is quite popular, even in the Western World, due to the success of other k-pop groups such as BTS and Blackpink. 
-
-	</div>
-</div>
-
-
-<div class="map1">
-	<div class="map" id="googletrends">
-		<script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3316_RC01/embed_loader.js"></script> <script type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", {"comparisonItem":[{"keyword":"kpop","geo":"","time":"2004-01-01 2023-04-05"}],"category":0,"property":""}, {"exploreQuery":"date=all&q=kpop&hl=nl","guestPath":"https://trends.google.com:443/trends/embed/"}); </script>
-	</div>
-
-	<div class="text" id="googletrendstext">
-		In the google trends we can see the interest in K-pop peaked in June 2020 and July 2022. In June 2020 multiple big K-pop groups released new songs and albums, such as TWICE, Jungkook from BTS, Stray Kids, SEVENTEEN, and most importantly, Blackpink with their song ‘How you like that’, which broke the record of most viewed YouTube music video in 24 hours by a K-pop group. 
-		In July 2022 interest peaked when artists such as J-Hope from BTS, SEVENTEEN, Aespa, HyunA, Xdinary Heroes, ENHYPEN and ATEEZ had comebacks.
-		A new group, called NewJeans also debuted with unheard of success. As of now, the group has over 20 million monthly listeners on Spotify, almost as much as Blackpink.  
-	</div>
+		</div>
 	</div>
 
 	<div class="map1">
-	<div class="map" id="openlayersmap1">
+		<div class="map" id="map">
+
+		</div>
+
+		<div class="text" id="zuidkoreatext">
+			ATEEZ is a boy band from South Korea. The group consists of eight members: Hongjoong, Seongwha, Yunho,
+			Yeonsang, San, Mingi, Wooyoung and Jongho. They debuted on October 24, 2018.
+			K-pop is a music genre and stands for Korean Popular music. The genre is quite popular, even in the Western
+			World, due to the success of other k-pop groups such as BTS and Blackpink.
+
+		</div>
+	</div>
+
+
+	<div class="map1">
+		<div class="map" id="googletrends">
+            <script type="text/javascript" src="https://ssl.gstatic.com/trends_nrtr/3316_RC01/embed_loader.js"></script>
+            <script
+                type="text/javascript"> trends.embed.renderExploreWidget("TIMESERIES", { "comparisonItem": [{ "keyword": "kpop", "geo": "", "time": "2004-01-01 2023-04-05" }], "category": 0, "property": "" }, { "exploreQuery": "date=all&q=kpop&hl=nl", "guestPath": "https://trends.google.com:443/trends/embed/" }); </script>
+        </div>
+
+
+		<div class="text" id="googletrendstext">
+			In the google trends we can see the interest in K-pop peaked in June 2020 and July 2022. In June 2020
+			multiple big K-pop groups released new songs and albums, such as TWICE, Jungkook from BTS, Stray Kids,
+			SEVENTEEN, and most importantly, Blackpink with their song ‘How you like that’, which broke the record of
+			most viewed YouTube music video in 24 hours by a K-pop group.
+			In July 2022 interest peaked when artists such as J-Hope from BTS, SEVENTEEN, Aespa, HyunA, Xdinary Heroes,
+			ENHYPEN and ATEEZ had comebacks.
+			A new group, called NewJeans also debuted with unheard of success. As of now, the group has over 20 million
+			monthly listeners on Spotify, almost as much as Blackpink.
+		</div>
+	</div>
+
+	<div class="map1">
+		<div class="map" id="openlayersmap1">
 		</div>
 		<div class="text" id="openlayertext">
-			While ATEEZ was the most recent, they surely aren’t the only K-pop group who have held a concert in the Ziggo Dome. Late 2022, the worldwide phenomenon Blackpink held a concert in the same hall. The concert was fully sold out, with the cheapest tickets being sold at 155 euros a piece. BTS also held a concert in the Ziggo Dome back in 2018. In was their first concert in The Netherlands. 
+			While ATEEZ was the most recent, they surely aren’t the only K-pop group who have held a concert in the
+			Ziggo Dome. Late 2022, the worldwide phenomenon Blackpink held a concert in the same hall. The concert was
+			fully sold out, with the cheapest tickets being sold at 155 euros a piece. BTS also held a concert in the
+			Ziggo Dome back in 2018. In was their first concert in The Netherlands.
 		</div>
-		
-	</div>
-
-	
-<div class="map1">
-	<div class='map' id="maplibre">
-	</div>
-
-	<div class="text" id="maplibretext">
-		ATEEZ as a group debuted under KQ Entertainment.In the map you can see where the agency is located.   Other notable artists under this label are Block B, who sadly have been on hiatus since 2018 as the members had to begin their military service, ZICO, and their new boy group Xikers, who debuted on March 30th, 2023, with their debut song Tricky House. 
-	</div>
-	</div>
-
-
-<div class="video">
- <div class="text" id="lyrics">
-	Ay! Make it louder
-지금부터 보여줄게
-놀라운 TRICKY HOUSE
-
-눈을 뜨고 주위를 둘러봐
-무엇이 진짜인지 골라봐
-느낌이 와 너도 느끼니
-그렇게 빨려 들어가는 Game
-
-(Ay oh ay)
-눈 깜빡할 사이에
-뺏길지도 몰라 (왜 이래)
-
-(Ay oh ay)
-이게 우리 놀이 Yeah
-Welcome to my playground
-
-Gonna play until the sun rises up
-보여 금이금이 Shimmy shimmy
-다 같이 Dance
-여기 없어 빼는 건 열기가 달아올라
-
-불러라 Lala 멜로디
-없어도 Ok 코미디
-불이 붙어 뜨거운 TRICKY HOUSE
-
-We like it like (Hoo)
-We like it like (Hoo)
-(Like it, like it, like it, like it, like it like)
-
-You’ll like it like (Hoo)
-We’re playing like this
-We’re playing like this
-
-We like it like (Hoo)
-We’re playing like this
-
-Say what
-We’re playing like this
-You’ll like it like
-
-Bounce bounce
-Move like this
-날 따라
-Play like this
-
-Oh, I like that
-여기 모여
-Gotta make it boom
-[민재/수민/예찬] Make it boom
-[민재/수민/예찬] Make it boom
-
-(어이야 네 마음껏)
-뚝딱 나와라 와라
-주문을 외워봐라
-여긴 없다 가도 있고
-있다 가도 없더라
-
-You you you you
-전부 Welcome
-Show time!
-뒤집어질 준비 다 장전 Pow
-
-Yeah
-자 춤을 춰라
-Yeah
-다 같이 놀아
-Yeah
-잠들지 마라
-
-Wake them up
-Wake them up boys yeah
-
-앗 뜨거
-온종일 눈부셔
-이 집은 Hot place
-출구는 없다고 No U-turn
-
-Face off 시작해
-네 편 내 편 가리지 말고
-Break all the rules
-Gotta move
-
-We like it like (Hoo)
-We like it like (Hoo)
-(Like it, like it, like it, like it, like it like)
-
-You’ll like it like (Hoo)
-We’re playing like this
-We’re playing like this
-
-We like it like (Hoo)
-We’re playing like this
-
-Say what
-We’re playing like this
-You’ll like it like
-
-이상하고 아름다운 도깨비 나라
-방망이 두드리면 무엇이 될지
-
-[진식/현우] Tell me what you want
-[진식/현우] Tell me what you want
-[진식/현우] Come on
-[진식/현우] Tell me what you need
-[진식/현우] Tell me what you need
-문을 열면 시작돼 (Hoo)
-Break it down
-Break it down
-Break it down
-
-Yo
-Show is almost over
-It’s our time now
-Hurry up
-Don’t forget
- </div>
- <div id="youtubevideo">
-	<iframe width="600" height="400" src="https://www.youtube.com/embed/HefrSFeMyPs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-</div>
 
 	</div>
-	
+
+
+	<div class="map1">
+		<div class='map' id="maplibre">
+		</div>
+
+		<div class="text" id="maplibretext">
+			ATEEZ as a group debuted under KQ Entertainment.In the map you can see where the agency is located. Other
+			notable artists under this label are Block B, who sadly have been on hiatus since 2018 as the members had to
+			begin their military service, ZICO, and their new boy group Xikers, who debuted on March 30th, 2023, with
+			their debut song Tricky House.
+		</div>
+	</div>
+
+
+	<div class="video">
+		<div class="text" id="lyrics">
+			<P>Ay! Make it louder
+			지금부터 보여줄게
+			놀라운 TRICKY HOUSE
+
+			눈을 뜨고 주위를 둘러봐
+			무엇이 진짜인지 골라봐
+			느낌이 와 너도 느끼니
+			그렇게 빨려 들어가는 Game</P>
+
+			<p>(Ay oh ay)
+			눈 깜빡할 사이에
+			뺏길지도 몰라 (왜 이래)
+
+			(Ay oh ay)
+			이게 우리 놀이 Yeah
+			Welcome to my playground
+
+			Gonna play until the sun rises up
+			보여 금이금이 Shimmy shimmy
+			다 같이 Dance
+			여기 없어 빼는 건 열기가 달아올라</p>
+
+			<p>불러라 Lala 멜로디
+			없어도 Ok 코미디
+			불이 붙어 뜨거운 TRICKY HOUSE
+
+			We like it like (Hoo)
+			We like it like (Hoo)
+			(Like it, like it, like it, like it, like it like)
+
+			You’ll like it like (Hoo)
+			We’re playing like this
+			We’re playing like this
+
+			We like it like (Hoo)
+			We’re playing like this</p>
+
+			<p>Say what
+			We’re playing like this
+			You’ll like it like
+
+			Bounce bounce
+			Move like this
+			날 따라
+			Play like this
+
+			Oh, I like that
+			여기 모여
+			Gotta make it boom
+			[민재/수민/예찬] Make it boom
+			[민재/수민/예찬] Make it boom
+
+			(어이야 네 마음껏)
+			뚝딱 나와라 와라
+			주문을 외워봐라
+			여긴 없다 가도 있고
+			있다 가도 없더라</p>
+
+			<p>You you you you
+			전부 Welcome
+			Show time!
+			뒤집어질 준비 다 장전 Pow
+
+			Yeah
+			자 춤을 춰라
+			Yeah
+			다 같이 놀아
+			Yeah
+			잠들지 마라
+
+			Wake them up
+			Wake them up boys yeah</p>
+
+			<p>앗 뜨거
+			온종일 눈부셔
+			이 집은 Hot place
+			출구는 없다고 No U-turn
+
+			Face off 시작해
+			네 편 내 편 가리지 말고
+			Break all the rules
+			Gotta move
+
+			We like it like (Hoo)
+			We like it like (Hoo)
+			(Like it, like it, like it, like it, like it like)
+
+			You’ll like it like (Hoo)
+			We’re playing like this
+			We’re playing like this
+
+			We like it like (Hoo)
+			We’re playing like this</p>
+
+			<p>Say what
+			We’re playing like this
+			You’ll like it like
+
+			이상하고 아름다운 도깨비 나라
+			방망이 두드리면 무엇이 될지
+
+			[진식/현우] Tell me what you want
+			[진식/현우] Tell me what you want
+			[진식/현우] Come on
+			[진식/현우] Tell me what you need
+			[진식/현우] Tell me what you need
+			문을 열면 시작돼 (Hoo)
+			Break it down
+			Break it down
+			Break it down
+
+			Yo
+			Show is almost over
+			It’s our time now
+			Hurry up
+			Don’t forget</p>
+		</div>
+		<div id="youtubevideo">
+			<iframe width="600" height="400" src="https://www.youtube.com/embed/HefrSFeMyPs"
+				title="YouTube video player" frameborder="0"
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+				allowfullscreen></iframe>
+		</div>
+
+	</div>
+
 	<div class="map" id="esrimap">
 	</div>
 
@@ -227,7 +250,6 @@ Don’t forget
 	<script src="https://js.arcgis.com/4.26/"></script>
 	<script src="./javascr/ateez.js"></script>
 
-	</body>
-	</html>
+</body>
 
-	
+</html>
