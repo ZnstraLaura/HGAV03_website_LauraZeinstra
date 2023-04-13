@@ -117,8 +117,20 @@ body {
     margin: 50px;
 }
 
+#esrimaptext {
+    margin: 150px;
+
+
+}
+
 .flourish-embed {
     width: 600px;
     height: 400px;
     margin: 50px;
 }
+
+#flourishtext{
+    margin: 200px;
+}
+
+
